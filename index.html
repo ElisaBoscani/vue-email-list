@@ -7,9 +7,16 @@
   </head>
   <body>
     <div id="app">
-      <ul>
-        <li v-for="email in emails">{{email}}</li>
-      </ul>
+      <div>
+        <ul>
+          <li v-for="email in emails">{{email}}</li>
+        </ul>
+      </div>
+      <div>
+        <ul v-if="emails.length >= 10">
+          <li v-for="email in emails">{{email}}</li>
+        </ul>
+      </div>
     </div>
     <!-- script -->
     <script
