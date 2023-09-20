@@ -6,7 +6,11 @@
     <title>Email list</title>
   </head>
   <body>
-    <div id="app">{{ email }}</div>
+    <div id="app">
+      <ul>
+        <li v-for="email in emails">{{email}}</li>
+      </ul>
+    </div>
     <!-- script -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js"
