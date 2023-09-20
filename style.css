@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(241, 230, 230);
+}
+
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+.green {
+  color: green;
+}
+.yellow {
+  color: yellow;
+}
+.pink {
+  color: rgb(237, 143, 158);
+}
+.color {
+  color: rgb(255, 0, 170);
+}
